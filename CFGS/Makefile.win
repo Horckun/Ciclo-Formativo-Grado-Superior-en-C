@@ -1,0 +1,54 @@
+# Project: CFGS
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = CFGS_private.res
+OBJ      = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o $(RES)
+LINKOBJ  = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o $(RES)
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = CFGS.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+magfime.o: magfime.c
+	$(CC) -c magfime.c -o magfime.o $(CFLAGS)
+
+fiyqui.o: fiyqui.c
+	$(CC) -c fiyqui.c -o fiyqui.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+simede.o: simede.c
+	$(CC) -c simede.c -o simede.o $(CFLAGS)
+
+simedet.o: simedet.c
+	$(CC) -c simedet.c -o simedet.o $(CFLAGS)
+
+sinu.o: sinu.c
+	$(CC) -c sinu.c -o sinu.o $(CFLAGS)
+
+sinun.o: sinun.c
+	$(CC) -c sinun.c -o sinun.o $(CFLAGS)
+
+unco.o: unco.c
+	$(CC) -c unco.c -o unco.o $(CFLAGS)
+
+CFGS_private.res: CFGS_private.rc 
+	$(WINDRES) -i CFGS_private.rc --input-format=rc -o CFGS_private.res -O coff 
+
