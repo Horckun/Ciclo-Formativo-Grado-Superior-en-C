@@ -61,6 +61,8 @@ void refel() {
 	
 	p("Galvani y la rana: En 1787, Luigi Galvani observ%c que las patas de una rana diseccionada se contra%can al tocarlas con un objeto met%clico, si una m%cquina electrost%ctica estaba en funcionamiento cerca del cuerpo del animal.\n\n",162,161,160,160,160);
 	
+	p("Alessandro Volta se enter%c de que en sus estudios posteriores consigui%c desarrollar un instrumento capaz de producir cargas el%cctricas al que llam%c electr%cforo. Y hacia 1800 anunci%c haber encontrado una fuente de electricidad: era la primera pila el%cctrica.\n\n",162,162,130,162,162,162,130);
+	
 	fprintf(archivo,"Revisión de la fenomenología de la electrización. Naturaleza eléctrica de la materia. Principio de conservación de la carga:\n");
 	fprintf(archivo,"============================================================================================================================\n\n");
 	fprintf(archivo,"La primera partícula más pequeña que el átomo en ser descubierta fue el protón. Es una partícula cuya masa es aproximadamente dos mil veces mas grande que el electrón y tiene carga eléctrica positiva\n\n");
@@ -85,6 +87,7 @@ void refel() {
 	fprintf(archivo,"La electricidad es una propiedad característica de la materia; además de poseer masa y ocupar un lugar en el espacio, la materia tiene una naturaleza eléctrica, la cual se manifiesta de dos formas diferentes (positiva y negativa) asociadas a las partículas elementales que constituyen el átomo.\n\n");
 	fprintf(archivo,"El desarrollo de la electricidad desde Franklin: Desde la descripción de los primeros fenómenos eléctricos por parte de Tales de Mileto, hasta hace poco más de dos siglos los avances que se produjeron en el estudio de la electricidad fueron bastante lentos. En el siglo XVIII, Benjamin Franklin voló una cometa con la intención de «capturar la electricidad» de las nubes tormentosas. A partir de aquí muchos científicos experimentaron con las cargas eléctricas en sus laboratorios y observaron que estas pueden originar chispas eléctricas.\n\n");
 	fprintf(archivo,"Galvani y la rana: En 1787, Luigi Galvani observó que las patas de una rana diseccionada se contraían al tocarlas con un objeto metálico, si una máquina electrostática estaba en funcionamiento cerca del cuerpo del animal.\n\n");
+	fprintf(archivo,"Alessandro Volta se enteró de que en sus estudios posteriores consiguió desarrollar un instrumento capaz de producir cargas eléctricas al que llamó electróforo. Y hacia 1800 anunció haber encontrado una fuente de electricidad: era la primera pila eléctrica.\n\n");
 	
 	fclose(archivo);
 }
