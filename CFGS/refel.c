@@ -63,6 +63,12 @@ void refel() {
 	
 	p("Alessandro Volta se enter%c de que en sus estudios posteriores consigui%c desarrollar un instrumento capaz de producir cargas el%cctricas al que llam%c electr%cforo. Y hacia 1800 anunci%c haber encontrado una fuente de electricidad: era la primera pila el%cctrica.\n\n",162,162,130,162,162,162,130);
 	
+	system("pause");
+	p("\n");
+	
+	p("Una vez ideada la pila el%cctrica, los cient%cficos contaron con una fuente estable de corriente el%cctrica que les permit%ca continuar con sus investigaciones.\n",130,161,130,161);
+	p("En 1820, Hans Christian Oersted, mientras realizaba sus experimentos, encontr%c que existe una relaci%cn muy estrecha entre los fen%cmenos el%cctricos y magn%cticos de la materia. Surgi%c as%c el electromagnetismo, y se invent%c un artilugio fascinante para esa %cpoca, el electroim%cn.\n\n",162,162,162,130,130,162,161,162,130,160);
+	
 	fprintf(archivo,"Revisión de la fenomenología de la electrización. Naturaleza eléctrica de la materia. Principio de conservación de la carga:\n");
 	fprintf(archivo,"============================================================================================================================\n\n");
 	fprintf(archivo,"La primera partícula más pequeña que el átomo en ser descubierta fue el protón. Es una partícula cuya masa es aproximadamente dos mil veces mas grande que el electrón y tiene carga eléctrica positiva\n\n");
@@ -88,6 +94,8 @@ void refel() {
 	fprintf(archivo,"El desarrollo de la electricidad desde Franklin: Desde la descripción de los primeros fenómenos eléctricos por parte de Tales de Mileto, hasta hace poco más de dos siglos los avances que se produjeron en el estudio de la electricidad fueron bastante lentos. En el siglo XVIII, Benjamin Franklin voló una cometa con la intención de «capturar la electricidad» de las nubes tormentosas. A partir de aquí muchos científicos experimentaron con las cargas eléctricas en sus laboratorios y observaron que estas pueden originar chispas eléctricas.\n\n");
 	fprintf(archivo,"Galvani y la rana: En 1787, Luigi Galvani observó que las patas de una rana diseccionada se contraían al tocarlas con un objeto metálico, si una máquina electrostática estaba en funcionamiento cerca del cuerpo del animal.\n\n");
 	fprintf(archivo,"Alessandro Volta se enteró de que en sus estudios posteriores consiguió desarrollar un instrumento capaz de producir cargas eléctricas al que llamó electróforo. Y hacia 1800 anunció haber encontrado una fuente de electricidad: era la primera pila eléctrica.\n\n");
+	fprintf(archivo,"Una vez ideada la pila eléctrica, los científicos contaron con una fuente estable de corriente eléctrica que les permitía continuar con sus investigaciones.\n");
+	fprintf(archivo,"En 1820, Hans Christian Oersted, mientras realizaba sus experimentos, encontró que existe una relación muy estrecha entre los fenómenos eléctricos y magnéticos de la materia. Surgió así el electromagnetismo, y se inventó un artilugio fascinante para esa época, el electroimán.\n\n");
 	
 	fclose(archivo);
 }
