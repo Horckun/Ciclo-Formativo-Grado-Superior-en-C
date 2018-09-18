@@ -75,6 +75,8 @@ void refel() {
 	
 	p("Otro descubrimiento importante fue el del tel%cgrafo, perfeccionado por Samuel Morse. A partir de aqu%c se abri%c una importante v%ca en el desarrollo de las comunicaciones.\n\n",130,161,162,161);
 	
+	p("En 1880, Heinrich Hertz, bas%cndose en la teor%ca del electromagnetismo, demostr%c la existencia de ondas, predichas en 1873 por James C. Maxwell,	que pod%can ser detectadas a distancia. Esto permiti%c un avance espectacular en el campo de las comunicaciones sin hilos. Se inventaron la radio y la televisi%cn.\n\n",160,161,162,161,162,162);
+	
 	fprintf(archivo,"Revisión de la fenomenología de la electrización. Naturaleza eléctrica de la materia. Principio de conservación de la carga:\n");
 	fprintf(archivo,"============================================================================================================================\n\n");
 	fprintf(archivo,"La primera partícula más pequeña que el átomo en ser descubierta fue el protón. Es una partícula cuya masa es aproximadamente dos mil veces mas grande que el electrón y tiene carga eléctrica positiva\n\n");
@@ -105,6 +107,7 @@ void refel() {
 	fprintf(archivo,"En las primeras décadas del siglo XIX, Michael Faraday realizó importantes descubrimientos que permitieron comprender la relación existente entre la electricidad y el magnetismo. Sus trabajos facilitaron el desarrollo del generador eléctrico y del motor eléctrico.\n\n");
 	fprintf(archivo,"En 1870, Thomas Alva Edison fabricó bombillas y otros elementos para facilitar el uso de la luz eléctrica en las casas. Una vez que la electricidad estuvo disponible, se empezó a pensar en nuevas aplicaciones. Se inventaron aparatos para hacer más fácil y cómoda la vida doméstica: planchas, estufas, batidoras y cocinas eléctricas.\n\n");
 	fprintf(archivo,"Otro descubrimiento importante fue el del telégrafo, perfeccionado por Samuel Morse. A partir de aquí se abrió una importante vía en el desarrollo de las comunicaciones.\n\n");
+	fprintf(archivo,"En 1880, Heinrich Hertz, basándose en la teoría del electromagnetismo, demostró la existencia de ondas, predichas en 1873 por James C. Maxwell,	que podían ser detectadas a distancia. Esto permitió un avance espectacular en el campo de las comunicaciones sin hilos. Se inventaron la radio y la televisión.\n\n");
 	
 	fclose(archivo);
 }
