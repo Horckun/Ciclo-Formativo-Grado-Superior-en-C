@@ -18,6 +18,7 @@
 #include "prienme.c"
 #include "eleco.c"
 #include "refel.c"
+#include "ine.c"
 
 // FUNCION PRINCIPAL
 int main() {

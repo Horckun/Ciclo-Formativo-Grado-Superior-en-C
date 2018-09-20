@@ -27,3 +27,4 @@ void incopo();
 void prienme();
 void eleco();
 void refel();
+void ine();

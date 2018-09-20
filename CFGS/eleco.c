@@ -7,15 +7,19 @@ void eleco() {
 			// TEMAS DE ELECTROSTÁTICA Y CORRIENTE ELÉCTRICA
 			p("Electrost%ctica y corriente el%cctrica:\n",160,130);
 			p("=====================================\n\n");
-			p("[1] - Revisi%cn de la fenomenolog%ca de la electrizaci%cn. Naturaleza el%cctrica de la materia. Principio de conservaci%cn de la carga.\n\n",162,161,162,130,162);
+			p("[1] - Revisi%cn de la fenomenolog%ca de la electrizaci%cn. Naturaleza el%cctrica de la materia. Principio de conservaci%cn de la carga.\n",162,161,162,130,162);
+			p("[2] - Interacci%cn el%cctrica. Ley de Coulomb. Estudio del campo el%cctrico.\n\n",162,130,130);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema != 1);
+		} while(tema < 1 || tema > 2);
 		switch(tema) {
 			case 1:
 				refel();
+				break;
+			case 2:
+				ine();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);
