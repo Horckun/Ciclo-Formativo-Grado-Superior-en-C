@@ -27,6 +27,8 @@ void ine() {
 	
 	p("La esencia de la electricidad es la carga el%cctrica. Esta cualidad existe en dos clases distintas, que se denominan cargas positivas y negativas. Las cargas el%cctricas de la misma clase o signo se repelen mutuamente y las de signo distinto se atraen.\n\n",130,130);
 	
+	p("En realidad, la carga el%cctrica de un cuerpo u objeto es la suma de las cargas de cada uno de sus constituyentes m%cnimos: mol%cculas, %ctomos y part%cculas elementales. Por ello se dice que la carga el%cctrica est%c cuantizada. Adem%cs, las cargas se pueden mover o intercambiar, pero sin que se produzcan cambios en su cantidad total (ley de conservaci%cn de la carga).\n\n",130,161,130,160,161,130,160,160,162);
+	
 	fprintf(archivo,"Interacción eléctrica. Ley de Coulomb. Estudio del campo eléctrico:\n");
 	fprintf(archivo,"===================================================================\n\n");
 	fprintf(archivo,"Una de las interacciones fundamentales descritas por la física es la electricidad. Aunque conocidos desde antiguo, los fenómenos eléctricos no empezaron a ser explicados de forma sistemática hasta las postrimerías del siglo XVIII, y sólo a mediados del XIX se descubrió su estrecha relación con otra manifestación común de la naturaleza: el magnetismo.\n\n");
@@ -38,6 +40,7 @@ void ine() {
 	fprintf(archivo,"- Cargas eléctricas:\n");
 	fprintf(archivo,"--------------------\n\n");
 	fprintf(archivo,"La esencia de la electricidad es la carga eléctrica. Esta cualidad existe en dos clases distintas, que se denominan cargas positivas y negativas. Las cargas eléctricas de la misma clase o signo se repelen mutuamente y las de signo distinto se atraen.\n\n");
+	fprintf(archivo,"En realidad, la carga eléctrica de un cuerpo u objeto es la suma de las cargas de cada uno de sus constituyentes mínimos: moléculas, átomos y partículas elementales. Por ello se dice que la carga eléctrica está cuantizada. Además, las cargas se pueden mover o intercambiar, pero sin que se produzcan cambios en su cantidad total (ley de conservación de la carga).\n\n");
 	
 	fclose(archivo);
 }
