@@ -33,6 +33,12 @@ void ine() {
 	
 	p("La electrizaci%cn de un cuerpo se consigue extrayendo del mismo las cargas de un signo y dejando en %cl las de signo contrario. En tal caso, el cuerpo adquiere una carga el%cctrica neta no nula.\n\n",162,130,130);
 	
+	system("pause");
+	p("\n");
+	
+	p("- Fuerza el%cctrica:\n",130);
+	p("-------------------\n\n");
+	
 	fprintf(archivo,"Interacción eléctrica. Ley de Coulomb. Estudio del campo eléctrico:\n");
 	fprintf(archivo,"===================================================================\n\n");
 	fprintf(archivo,"Una de las interacciones fundamentales descritas por la física es la electricidad. Aunque conocidos desde antiguo, los fenómenos eléctricos no empezaron a ser explicados de forma sistemática hasta las postrimerías del siglo XVIII, y sólo a mediados del XIX se descubrió su estrecha relación con otra manifestación común de la naturaleza: el magnetismo.\n\n");
@@ -47,6 +53,8 @@ void ine() {
 	fprintf(archivo,"En realidad, la carga eléctrica de un cuerpo u objeto es la suma de las cargas de cada uno de sus constituyentes mínimos: moléculas, átomos y partículas elementales. Por ello se dice que la carga eléctrica está cuantizada. Además, las cargas se pueden mover o intercambiar, pero sin que se produzcan cambios en su cantidad total (ley de conservación de la carga).\n\n");
 	fprintf(archivo,"En el estado normal de los cuerpos materiales, las cargas eléctricas mínimas están compensadas, por lo que dichos cuerpos se comportan eléctricamente como neutros. Hace falta una acción externa para que un objeto material se electrice.\n\n");
 	fprintf(archivo,"La electrización de un cuerpo se consigue extrayendo del mismo las cargas de un signo y dejando en él las de signo contrario. En tal caso, el cuerpo adquiere una carga eléctrica neta no nula.\n\n");
+	fprintf(archivo,"- Fuerza eléctrica:\n");
+	fprintf(archivo,"-------------------\n\n");
 	
 	fclose(archivo);
 }
