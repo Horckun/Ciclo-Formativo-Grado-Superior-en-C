@@ -39,6 +39,8 @@ void ine() {
 	p("- Fuerza el%cctrica:\n",130);
 	p("-------------------\n\n");
 	
+	p("Los fen%cmenos de la electrizaci%cn y la conducci%cn pueden explicarse como el resultado de la acci%cn de fuerzas el%cctricas. Entre dos cargas pr%cximas inicialmente en reposo siempre se establece un tipo de fuerzas, llamadas electrost%cticas, de tal forma que, si las part%cculas cargadas son suficientemente peque%cas como para que puedan considerarse puntuales, se cumple en las siguientes condiciones:\n\n",162,162,162,162,130,162,160,161,164);
+	
 	fprintf(archivo,"Interacción eléctrica. Ley de Coulomb. Estudio del campo eléctrico:\n");
 	fprintf(archivo,"===================================================================\n\n");
 	fprintf(archivo,"Una de las interacciones fundamentales descritas por la física es la electricidad. Aunque conocidos desde antiguo, los fenómenos eléctricos no empezaron a ser explicados de forma sistemática hasta las postrimerías del siglo XVIII, y sólo a mediados del XIX se descubrió su estrecha relación con otra manifestación común de la naturaleza: el magnetismo.\n\n");
@@ -55,6 +57,7 @@ void ine() {
 	fprintf(archivo,"La electrización de un cuerpo se consigue extrayendo del mismo las cargas de un signo y dejando en él las de signo contrario. En tal caso, el cuerpo adquiere una carga eléctrica neta no nula.\n\n");
 	fprintf(archivo,"- Fuerza eléctrica:\n");
 	fprintf(archivo,"-------------------\n\n");
+	fprintf(archivo,"Los fenómenos de la electrización y la conducción pueden explicarse como el resultado de la acción de fuerzas eléctricas. Entre dos cargas próximas inicialmente en reposo siempre se establece un tipo de fuerzas, llamadas electrostáticas, de tal forma que, si las partículas cargadas son suficientemente pequeñas como para que puedan considerarse puntuales, se cumple en las siguientes condiciones:\n\n");
 	
 	fclose(archivo);
 }
