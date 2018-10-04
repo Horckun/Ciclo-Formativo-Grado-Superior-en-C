@@ -47,6 +47,12 @@ void ine() {
 	
 	p(" - El sentido de la fuerza se dirige hacia el lado opuesto de la carga cuando ambas tienen el mismo signo (fuerza repulsiva).\n\n");
 	
+	system("pause");
+	p("\n");
+	
+	p("- Ley de Coulomb:\n");
+	p("-----------------\n\n");
+	
 	fprintf(archivo,"Interacción eléctrica. Ley de Coulomb. Estudio del campo eléctrico:\n");
 	fprintf(archivo,"===================================================================\n\n");
 	fprintf(archivo,"Una de las interacciones fundamentales descritas por la física es la electricidad. Aunque conocidos desde antiguo, los fenómenos eléctricos no empezaron a ser explicados de forma sistemática hasta las postrimerías del siglo XVIII, y sólo a mediados del XIX se descubrió su estrecha relación con otra manifestación común de la naturaleza: el magnetismo.\n\n");
@@ -67,6 +73,8 @@ void ine() {
 	fprintf(archivo," - La fuerza establecida entre ambas tiene una dirección que coincide con una línea recta imaginaria que une las dos cargas.\n\n");
 	fprintf(archivo," - La fuerza ejercida sobre una carga apunta hacia la otra cuando las dos tienen distinto signo (fuerza atractiva).\n\n");
 	fprintf(archivo," - El sentido de la fuerza se dirige hacia el lado opuesto de la carga cuando ambas tienen el mismo signo (fuerza repulsiva).\n\n");
+	fprintf(archivo,"- Ley de Coulomb:\n");
+	fprintf(archivo,"-----------------\n\n");
 	
 	fclose(archivo);
 }
