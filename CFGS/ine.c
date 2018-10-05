@@ -53,6 +53,8 @@ void ine() {
 	p("- Ley de Coulomb:\n");
 	p("-----------------\n\n");
 	
+	p("La magnitud de las fuerzas el%cctricas de atracci%cn y repulsi%cn entre cargas se rige por el principio fundamental de la electrost%ctica, tambi%cn llamado ley de Coulomb. Esta ley establece que la fuerza de atracci%cn entre dos cargas el%cctricas puntuales de distinto o igual signo es directamente proporcional al producto del valor de sus cargas e inversamente proporcional al cuadrado de la distancia que las separa:\n\n",130,162,162,160,130,162,130);
+	
 	fprintf(archivo,"Interacción eléctrica. Ley de Coulomb. Estudio del campo eléctrico:\n");
 	fprintf(archivo,"===================================================================\n\n");
 	fprintf(archivo,"Una de las interacciones fundamentales descritas por la física es la electricidad. Aunque conocidos desde antiguo, los fenómenos eléctricos no empezaron a ser explicados de forma sistemática hasta las postrimerías del siglo XVIII, y sólo a mediados del XIX se descubrió su estrecha relación con otra manifestación común de la naturaleza: el magnetismo.\n\n");
@@ -75,6 +77,7 @@ void ine() {
 	fprintf(archivo," - El sentido de la fuerza se dirige hacia el lado opuesto de la carga cuando ambas tienen el mismo signo (fuerza repulsiva).\n\n");
 	fprintf(archivo,"- Ley de Coulomb:\n");
 	fprintf(archivo,"-----------------\n\n");
+	fprintf(archivo,"La magnitud de las fuerzas eléctricas de atracción y repulsión entre cargas se rige por el principio fundamental de la electrostática, también llamado ley de Coulomb. Esta ley establece que la fuerza de atracción entre dos cargas eléctricas puntuales de distinto o igual signo es directamente proporcional al producto del valor de sus cargas e inversamente proporcional al cuadrado de la distancia que las separa:\n\n");
 	
 	fclose(archivo);
 }
