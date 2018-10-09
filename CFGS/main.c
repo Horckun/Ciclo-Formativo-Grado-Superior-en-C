@@ -19,6 +19,7 @@
 #include "eleco.c"
 #include "refel.c"
 #include "ine.c"
+#include "vein.c"
 
 // FUNCION PRINCIPAL
 int main() {

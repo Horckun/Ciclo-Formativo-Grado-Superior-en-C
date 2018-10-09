@@ -8,18 +8,22 @@ void eleco() {
 			p("Electrost%ctica y corriente el%cctrica:\n",160,130);
 			p("=====================================\n\n");
 			p("[1] - Revisi%cn de la fenomenolog%ca de la electrizaci%cn. Naturaleza el%cctrica de la materia. Principio de conservaci%cn de la carga.\n",162,161,162,130,162);
-			p("[2] - Interacci%cn el%cctrica. Ley de Coulomb. Estudio del campo el%cctrico.\n\n",162,130,130);
+			p("[2] - Interacci%cn el%cctrica. Ley de Coulomb. Estudio del campo el%cctrico.\n",162,130,130);
+			p("[3] - Vector Intensidad de campo el%cctrico. Potencial el%cctrico. Diferencia de potencial entre dos puntos de un campo el%cctrico.\n\n",130,130,130);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 2);
+		} while(tema < 1 || tema > 3);
 		switch(tema) {
 			case 1:
 				refel();
 				break;
 			case 2:
 				ine();
+				break;
+			case 3:
+				vein();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);
