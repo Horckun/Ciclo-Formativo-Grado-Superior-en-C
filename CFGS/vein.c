@@ -18,6 +18,8 @@ void vein() {
 	p("- Superficies equipotenciales:\n");
 	p("------------------------------\n\n");
 	
+	p("Aquellos puntos contiguos donde el valor del potencial el%cctrico es el mismo, reciben el nombre de superficie equipotencial. Cada punto de una superficie equipotencial se caracteriza por que:\n\n",130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -26,6 +28,7 @@ void vein() {
 	fprintf(archivo,"El hecho de que todas las magnitudes sean escalares, permite que el estudio del campo eléctrico sea más sencillo.\n\n");
 	fprintf(archivo,"- Superficies equipotenciales:\n");
 	fprintf(archivo,"------------------------------\n\n");
+	fprintf(archivo,"Aquellos puntos contiguos donde el valor del potencial eléctrico es el mismo, reciben el nombre de superficie equipotencial. Cada punto de una superficie equipotencial se caracteriza por que:\n\n");
 	
 	fclose(archivo);
 }
