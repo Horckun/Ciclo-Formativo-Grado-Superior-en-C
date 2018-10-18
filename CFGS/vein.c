@@ -24,6 +24,9 @@ void vein() {
 	
 	p(" - Cada punto solo puede pertenecer a una superficie equipotencial, ya que el potencial el%cctrico es un %cnico valor en cada punto.\n\n",130,163);
 	
+	p("- Potencial el%cctrico creado por una carga puntual:\n",130);
+	p("---------------------------------------------------\n\n");
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -35,6 +38,8 @@ void vein() {
 	fprintf(archivo,"Aquellos puntos contiguos donde el valor del potencial eléctrico es el mismo, reciben el nombre de superficie equipotencial. Cada punto de una superficie equipotencial se caracteriza por que:\n\n");
 	fprintf(archivo," - El campo eléctrico es perpendicular a la superficie en dicho punto y se dirige hacia valores decrecientes de potencial eléctrico.\n\n");
 	fprintf(archivo," - Cada punto solo puede pertenecer a una superficie equipotencial, ya que el potencial eléctrico es un único valor en cada punto.\n\n");
+	fprintf(archivo,"- Potencial eléctrico creado por una carga puntual:\n");
+	fprintf(archivo,"---------------------------------------------------\n\n");
 	
 	fclose(archivo);
 }
