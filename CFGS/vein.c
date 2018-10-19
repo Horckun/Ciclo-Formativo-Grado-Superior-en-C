@@ -27,6 +27,8 @@ void vein() {
 	p("- Potencial el%cctrico creado por una carga puntual:\n",130);
 	p("---------------------------------------------------\n\n");
 	
+	p("Tal y como estudiamos en el apartado de intensidad del campo el%cctrico, una %cnica carga es capaz de crear un campo el%cctrico a su alrededor.\n\n",130,163);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -40,6 +42,7 @@ void vein() {
 	fprintf(archivo," - Cada punto solo puede pertenecer a una superficie equipotencial, ya que el potencial eléctrico es un único valor en cada punto.\n\n");
 	fprintf(archivo,"- Potencial eléctrico creado por una carga puntual:\n");
 	fprintf(archivo,"---------------------------------------------------\n\n");
+	fprintf(archivo,"Tal y como estudiamos en el apartado de intensidad del campo eléctrico, una única carga es capaz de crear un campo eléctrico a su alrededor.\n\n");
 	
 	fclose(archivo);
 }
