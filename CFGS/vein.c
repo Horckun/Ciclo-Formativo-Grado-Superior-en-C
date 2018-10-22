@@ -29,6 +29,12 @@ void vein() {
 	
 	p("Tal y como estudiamos en el apartado de intensidad del campo el%cctrico, una %cnica carga es capaz de crear un campo el%cctrico a su alrededor.\n\n",130,163);
 	
+	p("El potencial el%cctrico del campo el%cctrico creado por una carga puntual se obtiene por medio de la siguiente expresi%cn:\n\n",130,130,162);
+	
+	p("         q\n");
+	p(" V = K * -\n");
+	p("         r\n\n");
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -43,6 +49,10 @@ void vein() {
 	fprintf(archivo,"- Potencial eléctrico creado por una carga puntual:\n");
 	fprintf(archivo,"---------------------------------------------------\n\n");
 	fprintf(archivo,"Tal y como estudiamos en el apartado de intensidad del campo eléctrico, una única carga es capaz de crear un campo eléctrico a su alrededor.\n\n");
+	fprintf(archivo,"El potencial eléctrico del campo eléctrico creado por una carga puntual se obtiene por medio de la siguiente expresión:\n\n");
+	fprintf(archivo,"         q\n");
+	fprintf(archivo," V = K * -\n");
+	fprintf(archivo,"         r\n\n");
 	
 	fclose(archivo);
 }
