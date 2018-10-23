@@ -35,6 +35,11 @@ void vein() {
 	p(" V = K * -\n");
 	p("         r\n\n");
 	
+	p(" - V es el potencial el%cctrico en un punto. En el S.I. se mide en Voltios (V).\n\n",130);
+	p(" - K es la constante de la ley de Coulomb. En el S.I. se mide en N*m%c/C%c.\n\n",253,253);
+	p(" - q es la carga puntual que crea el campo el%cctrico. En el S.I. se mide en culombios (C).\n\n",130);
+	p(" - r es la distancia entre la carga y el punto donde medimos el potencial. En el S.I. se mide en metros (m).\n\n");
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -53,6 +58,10 @@ void vein() {
 	fprintf(archivo,"         q\n");
 	fprintf(archivo," V = K * -\n");
 	fprintf(archivo,"         r\n\n");
+	fprintf(archivo," - V es el potencial eléctrico en un punto. En el S.I. se mide en Voltios (V).\n\n");
+	fprintf(archivo," - K es la constante de la ley de Coulomb. En el S.I. se mide en N*m²/C².\n\n");
+	fprintf(archivo," - q es la carga puntual que crea el campo eléctrico. En el S.I. se mide en culombios (C).\n\n");
+	fprintf(archivo," - r es la distancia entre la carga y el punto donde medimos el potencial. En el S.I. se mide en metros (m).\n\n");
 	
 	fclose(archivo);
 }
