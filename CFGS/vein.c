@@ -43,6 +43,8 @@ void vein() {
 	p("- Potencial el%cctrico creado por varias cargas puntuales:\n",130);
 	p("---------------------------------------------------------\n\n");
 	
+	p("Una %cnica carga es capaz de crear un campo el%cctrico a su alrededor.\n\n",163,130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -67,6 +69,7 @@ void vein() {
 	fprintf(archivo," - r es la distancia entre la carga y el punto donde medimos el potencial. En el S.I. se mide en metros (m).\n\n");
 	fprintf(archivo,"- Potencial eléctrico creado por varias cargas puntuales:\n");
 	fprintf(archivo,"---------------------------------------------------------\n\n");
+	fprintf(archivo,"Una única carga es capaz de crear un campo eléctrico a su alrededor.\n\n");
 	
 	fclose(archivo);
 }
