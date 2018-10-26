@@ -45,6 +45,8 @@ void vein() {
 	
 	p("Una %cnica carga es capaz de crear un campo el%cctrico a su alrededor.\n\n",163,130);
 	
+	p("El potencial el%cctrico originado por cargas puntuales en un punto de un campo el%cctrico es la suma escalar de los potenciales el%cctricos en dicho punto creados por cada una de las cargas por separado.\n\n",130,130,130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -70,6 +72,7 @@ void vein() {
 	fprintf(archivo,"- Potencial eléctrico creado por varias cargas puntuales:\n");
 	fprintf(archivo,"---------------------------------------------------------\n\n");
 	fprintf(archivo,"Una única carga es capaz de crear un campo eléctrico a su alrededor.\n\n");
+	fprintf(archivo,"El potencial eléctrico originado por cargas puntuales en un punto de un campo eléctrico es la suma escalar de los potenciales eléctricos en dicho punto creados por cada una de las cargas por separado.\n\n");
 	
 	fclose(archivo);
 }
