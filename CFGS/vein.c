@@ -50,6 +50,8 @@ void vein() {
 	p("Diferencia de Potencial El%cctrico:\n",130);
 	p("----------------------------------\n\n");
 	
+	p("Si dos puntos de un campo el%cctrico poseen distinto potencial el%cctrico, entre ambos puntos existe lo que se denomina una diferencia de potencial o tensi%cn. Este valor se encuentra %cntimamente relacionado con el trabajo el%cctrico.\n\n",130,130,162,161,130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -78,6 +80,7 @@ void vein() {
 	fprintf(archivo,"El potencial eléctrico originado por cargas puntuales en un punto de un campo eléctrico es la suma escalar de los potenciales eléctricos en dicho punto creados por cada una de las cargas por separado.\n\n");
 	fprintf(archivo,"Diferencia de Potencial Eléctrico:\n");
 	fprintf(archivo,"----------------------------------\n\n");
+	fprintf(archivo,"Si dos puntos de un campo eléctrico poseen distinto potencial eléctrico, entre ambos puntos existe lo que se denomina una diferencia de potencial o tensión. Este valor se encuentra íntimamente relacionado con el trabajo eléctrico.\n\n");
 	
 	fclose(archivo);
 }
