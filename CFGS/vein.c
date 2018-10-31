@@ -52,6 +52,9 @@ void vein() {
 	
 	p("Si dos puntos de un campo el%cctrico poseen distinto potencial el%cctrico, entre ambos puntos existe lo que se denomina una diferencia de potencial o tensi%cn. Este valor se encuentra %cntimamente relacionado con el trabajo el%cctrico.\n\n",130,130,162,161,130);
 	
+	p("- Relaci%cn entre Potencial El%cctrico y Campo El%cctrico:\n",162,130,130);
+	p("-------------------------------------------------------\n\n");
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -81,6 +84,8 @@ void vein() {
 	fprintf(archivo,"Diferencia de Potencial Eléctrico:\n");
 	fprintf(archivo,"----------------------------------\n\n");
 	fprintf(archivo,"Si dos puntos de un campo eléctrico poseen distinto potencial eléctrico, entre ambos puntos existe lo que se denomina una diferencia de potencial o tensión. Este valor se encuentra íntimamente relacionado con el trabajo eléctrico.\n\n");
+	fprintf(archivo,"- Relación entre Potencial Eléctrico y Campo Eléctrico:\n");
+	fprintf(archivo,"-------------------------------------------------------\n\n");
 	
 	fclose(archivo);
 }
