@@ -55,6 +55,8 @@ void vein() {
 	p("- Potencial El%cctrico y el Movimiento de las Cargas:\n",130);
 	p("----------------------------------------------------\n\n");
 	
+	p(" - Las cargas positivas se mueven desde zonas de mayor potencial el%cctrico a zonas de menor potencial el%cctrico.\n\n",130,130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -86,6 +88,7 @@ void vein() {
 	fprintf(archivo,"Si dos puntos de un campo eléctrico poseen distinto potencial eléctrico, entre ambos puntos existe lo que se denomina una diferencia de potencial o tensión. Este valor se encuentra íntimamente relacionado con el trabajo eléctrico.\n\n");
 	fprintf(archivo,"- Potencial Eléctrico y el Movimiento de las Cargas:\n");
 	fprintf(archivo,"----------------------------------------------------\n\n");
+	fprintf(archivo," - Las cargas positivas se mueven desde zonas de mayor potencial eléctrico a zonas de menor potencial eléctrico.\n\n");
 	
 	fclose(archivo);
 }
