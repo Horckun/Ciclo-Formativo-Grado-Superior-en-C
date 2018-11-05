@@ -57,6 +57,10 @@ void vein() {
 	
 	p(" - Las cargas positivas se mueven desde zonas de mayor potencial el%cctrico a zonas de menor potencial el%cctrico.\n\n",130,130);
 	
+	p(" - Las cargas negativas se mueven desde zonas de menor potencial el%cctrico a zonas de mayor potencial el%cctrico.\n\n",130,130);
+	
+	p("Teniendo en cuenta que tal y como estudiamos en el apartado de intensidad del campo el%cctrico, las cargas positivas se mueven en el sentido de dicha intensidad, entonces, la intensidad de campo el%cctrico se dirige siempre desde zonas de mayor potencial a zonas de menor potencial.\n\n",130,130);
+	
 	fprintf(archivo,"Vector Intensidad de campo eléctrico. Potencial eléctrico. Diferencia de potencial entre dos puntos de un campo eléctrico:\n");
 	fprintf(archivo,"==========================================================================================================================\n\n");
 	fprintf(archivo,"- Potencial eléctrico:\n");
@@ -89,6 +93,8 @@ void vein() {
 	fprintf(archivo,"- Potencial Eléctrico y el Movimiento de las Cargas:\n");
 	fprintf(archivo,"----------------------------------------------------\n\n");
 	fprintf(archivo," - Las cargas positivas se mueven desde zonas de mayor potencial eléctrico a zonas de menor potencial eléctrico.\n\n");
+	fprintf(archivo," - Las cargas negativas se mueven desde zonas de menor potencial eléctrico a zonas de mayor potencial eléctrico.\n\n");
+	fprintf(archivo,"Teniendo en cuenta que tal y como estudiamos en el apartado de intensidad del campo eléctrico, las cargas positivas se mueven en el sentido de dicha intensidad, entonces, la intensidad de campo eléctrico se dirige siempre desde zonas de mayor potencial a zonas de menor potencial.\n\n");
 	
 	fclose(archivo);
 }
