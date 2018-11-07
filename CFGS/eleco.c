@@ -10,7 +10,7 @@ void eleco() {
 			p("[1] - Revisi%cn de la fenomenolog%ca de la electrizaci%cn. Naturaleza el%cctrica de la materia. Principio de conservaci%cn de la carga.\n",162,161,162,130,162);
 			p("[2] - Interacci%cn el%cctrica. Ley de Coulomb. Estudio del campo el%cctrico.\n",162,130,130);
 			p("[3] - Vector Intensidad de campo el%cctrico. Potencial el%cctrico. Diferencia de potencial entre dos puntos de un campo el%cctrico.\n",130,130,130);
-			p("[4] - Circuito el%cctrico y magnitudes para su estudio cuantitativo: fuerza electromotriz, intensidad y resistencia. Ley de Ohm.\n\n",130);
+			p("[4] - Circuito el%cctrico y magnitudes para su estudio cuantitativo. Ley de Ohm.\n\n",130);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
