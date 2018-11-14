@@ -18,6 +18,8 @@ void ciem() {
 	
 	p("El principio de no acumulaci%cn de cargas, que indica que las cargas no pueden acumularse. Eso significa que si no hay bifurcaciones, la intensidad de corriente es la misma en todo el circuito, y si las hay, la intensidad de corriente que entra en un nudo o punto de bifurcaci%cn ha de ser igual a la suma de las que salen de %cl.\n\n",162,162,130);
 	
+	p("Tales principios se conocen tambi%cn como leyes de Kirchoff.\n\n",130);
+	
 	fprintf(archivo,"Circuito eléctrico y magnitudes para su estudio cuantitativo. Ley de Ohm:\n");
 	fprintf(archivo,"=========================================================================\n\n");
 	fprintf(archivo,"Un circuito eléctrico está formado por la asociación de una serie de elementos conductores que hacen posible el mantenimiento por su interior de una corriente eléctrica. Si los generadores producen una diferencia de potencial constante entre sus bornes o polos, la corriente producida será continua. Tal es el caso de las pilas y de las baterías.\n\n");
@@ -25,6 +27,7 @@ void ciem() {
 	fprintf(archivo,"Para simplificar el estudio, se supone que las magnitudes o parámetros característicos de estos elementos se concentran en los puntos del circuito donde se representan. Así, la resistencia de los cables de conexión o se desprecia o se supone concentrada en un punto como si se tratara de un elemento de circuito más. El estudio cuantitativo de los circuitos eléctricos de corriente continua se efectúa como una aplicación de dos principios básicos:\n\n");
 	fprintf(archivo,"El principio de conservación de la energía referido a la unidad de carga eléctrica, según el cual en todo el circuito, o en cualquier tramo de él, la energía que pierde la corriente eléctrica es igual a la energía cedida por el circuito al exterior. Es, en esencia, la ley de Ohm generalizada e interpretada como balance de energías.\n\n");
 	fprintf(archivo,"El principio de no acumulación de cargas, que indica que las cargas no pueden acumularse. Eso significa que si no hay bifurcaciones, la intensidad de corriente es la misma en todo el circuito, y si las hay, la intensidad de corriente que entra en un nudo o punto de bifurcación ha de ser igual a la suma de las que salen de él.\n\n");
+	fprintf(archivo,"Tales principios se conocen también como leyes de Kirchoff.\n\n");
 	
 	fclose(archivo);
 }
