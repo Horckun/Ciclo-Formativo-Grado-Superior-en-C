@@ -22,8 +22,9 @@ void ciem() {
 	
 	p("La llamada forma macrosc%cpica de la ley de Ohm cuando se aplica a un alambre conductor entre cuyos extremos se conecta una diferencia de potencial es: I=AV/R donde I es la corriente que se establece en el alambre y R la constante de proporcionalidad a la que llamamos resistencia del alambre. La resistencia tiene por expresi%cn: R=AV/I Esta expresi%cn tiene validez general, cualquiera sea la geometr%ca del conductor, a condici%cn de que el material cumpla la ley de Ohm. Si en particular el conductor es un alambre homog%cneo, la resistencia se puede expresar: R=p*l/S expresi%cn conocida como resistencia en funci%cn de las dimensiones, pues l y S son la longitud y secci%cn del alambre y p la resistividad del material.\n\n",162,162,162,161,162,130,162,162,162);
 	
-	p(" - Relaciones de la formula de la ley de Ohm:\n");
-	p(" --------------------------------------------\n\n");
+	p(" - C%cdigo de colores:\n",162);
+	p(" --------------------\n\n");
+	p(" Las resistencias poseen una serie de anillos de color que nos dan la clave del valor %chmico de la misma.\n\n",162);
 	
 	fprintf(archivo,"Circuito eléctrico y magnitudes para su estudio cuantitativo. Ley de Ohm:\n");
 	fprintf(archivo,"=========================================================================\n\n");
@@ -34,8 +35,9 @@ void ciem() {
 	fprintf(archivo,"El principio de no acumulación de cargas, que indica que las cargas no pueden acumularse. Eso significa que si no hay bifurcaciones, la intensidad de corriente es la misma en todo el circuito, y si las hay, la intensidad de corriente que entra en un nudo o punto de bifurcación ha de ser igual a la suma de las que salen de él.\n\n");
 	fprintf(archivo,"Tales principios se conocen también como leyes de Kirchoff.\n\n");
 	fprintf(archivo,"La llamada forma macroscópica de la ley de Ohm cuando se aplica a un alambre conductor entre cuyos extremos se conecta una diferencia de potencial es: I=AV/R donde I es la corriente que se establece en el alambre y R la constante de proporcionalidad a la que llamamos resistencia del alambre. La resistencia tiene por expresión: R=AV/I Esta expresión tiene validez general, cualquiera sea la geometría del conductor, a condición de que el material cumpla la ley de Ohm. Si en particular el conductor es un alambre homogéneo, la resistencia se puede expresar: R=p·l/S expresión conocida como resistencia en función de las dimensiones, pues l y S son la longitud y sección del alambre y p la resistividad del material.\n\n");
-	fprintf(archivo," - Relaciones de la formula de la ley de Ohm:\n");
-	fprintf(archivo," --------------------------------------------\n\n");
+	fprintf(archivo," - Código de colores:\n");
+	fprintf(archivo," --------------------\n\n");
+	fprintf(archivo," Las resistencias poseen una serie de anillos de color que nos dan la clave del valor óhmico de la misma.\n\n");
 	
 	fclose(archivo);
 }
