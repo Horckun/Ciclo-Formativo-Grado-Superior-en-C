@@ -20,11 +20,85 @@ void ciem() {
 	
 	p("Tales principios se conocen tambi%cn como leyes de Kirchoff.\n\n",130);
 	
+	system("pause");
+	p("\n");
+	
 	p("La llamada forma macrosc%cpica de la ley de Ohm cuando se aplica a un alambre conductor entre cuyos extremos se conecta una diferencia de potencial es: I=AV/R donde I es la corriente que se establece en el alambre y R la constante de proporcionalidad a la que llamamos resistencia del alambre. La resistencia tiene por expresi%cn: R=AV/I Esta expresi%cn tiene validez general, cualquiera sea la geometr%ca del conductor, a condici%cn de que el material cumpla la ley de Ohm. Si en particular el conductor es un alambre homog%cneo, la resistencia se puede expresar: R=p*l/S expresi%cn conocida como resistencia en funci%cn de las dimensiones, pues l y S son la longitud y secci%cn del alambre y p la resistividad del material.\n\n",162,162,162,161,162,130,162,162,162);
+	
+	system("pause");
+	p("\n");
 	
 	p(" - C%cdigo de colores:\n",162);
 	p(" --------------------\n\n");
 	p(" Las resistencias poseen una serie de anillos de color que nos dan la clave del valor %chmico de la misma.\n\n",162);
+	
+	p(" ==============================================\n");
+	p(" =          =         =         =             =\n");
+	p(" = Color    = Banda 1 = Banda 2 = Banda 3     =\n");
+	p(" =          =         =         =             =\n");
+	p(" ==============================================\n");
+	p(" =          =         =         =             =\n");
+	p(" = NEGRO    =    0    =    0    = Ningún 0    =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = MARR%cN   =    1    =    1    = 0           =\n",224);
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = ROJO     =    2    =    2    = 00          =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = NARANJA  =    3    =    3    = 000         =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	
+	system("pause");
+	p("\n");
+	
+	p(" =          =         =         =             =\n");
+	p(" = AMARILLO =    4    =    4    = 0.000       =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = VERDE    =    5    =    5    = 00.000      =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = AZUL     =    6    =    6    = 000.000     =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = MORADO   =    7    =    7    = 0.000.000   =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	p(" =          =         =         =             =\n");
+	p(" = GRIS     =    8    =    8    = 00.000.000  =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n");
+	
+	system("pause");
+	p("\n");
+	
+	p(" =          =         =         =             =\n");
+	p(" = BLANCO   =    9    =    9    = 000.000.000 =\n");
+	p(" =          =         =         =             =\n");
+	p(" =--------------------------------------------=\n\n");
+	
+	p(" =======================\n");
+	p(" =                     =\n");
+	p(" = Banda 4: Tolerancia =\n");
+	p(" =                     =\n");
+	p(" =======================\n");
+	p(" =                     =\n");
+	p(" = ORO %c5%c             =\n",241,37);
+	p(" =                     =\n");
+	p(" =---------------------=\n");
+	p(" =                     =\n");
+	p(" = PLATA %c10%c          =\n",241,37);
+	p(" =                     =\n");
+	p(" =---------------------=\n\n");
 	
 	fprintf(archivo,"Circuito eléctrico y magnitudes para su estudio cuantitativo. Ley de Ohm:\n");
 	fprintf(archivo,"=========================================================================\n\n");
@@ -38,6 +112,64 @@ void ciem() {
 	fprintf(archivo," - Código de colores:\n");
 	fprintf(archivo," --------------------\n\n");
 	fprintf(archivo," Las resistencias poseen una serie de anillos de color que nos dan la clave del valor óhmico de la misma.\n\n");
+	fprintf(archivo," ==============================================\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = Color    = Banda 1 = Banda 2 = Banda 3     =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," ==============================================\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = NEGRO    =    0    =    0    = Ningún 0    =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = MARRÓN   =    1    =    1    = 0           =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = ROJO     =    2    =    2    = 00          =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = NARANJA  =    3    =    3    = 000         =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = AMARILLO =    4    =    4    = 0.000       =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = VERDE    =    5    =    5    = 00.000      =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = AZUL     =    6    =    6    = 000.000     =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = MORADO   =    7    =    7    = 0.000.000   =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = GRIS     =    8    =    8    = 00.000.000  =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," = BLANCO   =    9    =    9    = 000.000.000 =\n");
+	fprintf(archivo," =          =         =         =             =\n");
+	fprintf(archivo," =--------------------------------------------=\n\n");
+	fprintf(archivo," =======================\n");
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," = Banda 4: Tolerancia =\n");
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," =======================\n");
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," = ORO ±5%c             =\n",37);
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," =---------------------=\n");
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," = PLATA ±10%c          =\n",37);
+	fprintf(archivo," =                     =\n");
+	fprintf(archivo," =---------------------=\n\n");
 	
 	fclose(archivo);
 }
