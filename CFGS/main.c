@@ -21,6 +21,7 @@
 #include "ine.c"
 #include "vein.c"
 #include "ciem.c"
+#include "fadereco.c"
 
 // FUNCION PRINCIPAL
 int main() {

@@ -10,12 +10,13 @@ void eleco() {
 			p("[1] - Revisi%cn de la fenomenolog%ca de la electrizaci%cn. Naturaleza el%cctrica de la materia. Principio de conservaci%cn de la carga.\n",162,161,162,130,162);
 			p("[2] - Interacci%cn el%cctrica. Ley de Coulomb. Estudio del campo el%cctrico.\n",162,130,130);
 			p("[3] - Vector Intensidad de campo el%cctrico. Potencial el%cctrico. Diferencia de potencial entre dos puntos de un campo el%cctrico.\n",130,130,130);
-			p("[4] - Circuito el%cctrico y magnitudes para su estudio cuantitativo. Ley de Ohm.\n\n",130);
+			p("[4] - Circuito el%cctrico y magnitudes para su estudio cuantitativo. Ley de Ohm.\n",130);
+			p("[5] - Factores de los que depende la resistencia de un conductor.\n\n");
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 4);
+		} while(tema < 1 || tema > 5);
 		switch(tema) {
 			case 1:
 				refel();
@@ -28,6 +29,9 @@ void eleco() {
 				break;
 			case 4:
 				ciem();
+				break;
+			case 5:
+				fadereco();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);

@@ -30,3 +30,4 @@ void refel();
 void ine();
 void vein();
 void ciem();
+void fadereco();
