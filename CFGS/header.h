@@ -31,3 +31,4 @@ void ine();
 void vein();
 void ciem();
 void fadereco();
+void leocico();
