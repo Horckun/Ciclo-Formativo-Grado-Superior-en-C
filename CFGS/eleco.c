@@ -12,12 +12,13 @@ void eleco() {
 			p("[3] - Vector Intensidad de campo el%cctrico. Potencial el%cctrico. Diferencia de potencial entre dos puntos de un campo el%cctrico.\n",130,130,130);
 			p("[4] - Circuito el%cctrico y magnitudes para su estudio cuantitativo. Ley de Ohm.\n",130);
 			p("[5] - Factores de los que depende la resistencia de un conductor.\n");
-			p("[6] - Ley de Ohm para un circuito completo. Asociaciones de resistencias.\n\n");
+			p("[6] - Ley de Ohm para un circuito completo. Asociaciones de resistencias.\n");
+			p("[7] - Trabajo y potencia el%cctricos. Efecto Joule.\n\n",130);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 6);
+		} while(tema < 1 || tema > 7);
 		switch(tema) {
 			case 1:
 				refel();
@@ -36,6 +37,9 @@ void eleco() {
 				break;
 			case 6:
 				leocico();
+				break;
+			case 7:
+				trapoel();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);

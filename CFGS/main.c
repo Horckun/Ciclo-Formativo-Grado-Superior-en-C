@@ -23,6 +23,7 @@
 #include "ciem.c"
 #include "fadereco.c"
 #include "leocico.c"
+#include "trapoel.c"
 
 // FUNCION PRINCIPAL
 int main() {

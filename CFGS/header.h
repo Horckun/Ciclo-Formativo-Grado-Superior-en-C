@@ -32,3 +32,4 @@ void vein();
 void ciem();
 void fadereco();
 void leocico();
+void trapoel();
