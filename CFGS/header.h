@@ -33,3 +33,5 @@ void ciem();
 void fadereco();
 void leocico();
 void trapoel();
+void reproteato();
+void clasu();

@@ -24,6 +24,8 @@
 #include "fadereco.c"
 #include "leocico.c"
 #include "trapoel.c"
+#include "reproteato.c"
+#include "clasu.c"
 
 // FUNCION PRINCIPAL
 int main() {
