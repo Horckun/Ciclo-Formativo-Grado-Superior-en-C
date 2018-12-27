@@ -26,6 +26,7 @@
 #include "trapoel.c"
 #include "reproteato.c"
 #include "clasu.c"
+#include "lepoqui.c"
 
 // FUNCION PRINCIPAL
 int main() {
