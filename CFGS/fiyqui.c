@@ -11,12 +11,13 @@ void fiyqui() {
 			p("[2] - Cinem%ctica y din%cmica.\n",160,160);
 			p("[3] - Trabajo. Potencia y Energ%ca.\n",161);
 			p("[4] - Electrost%ctica y corriente el%cctrica.\n",160,130);
-			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n\n",162,162,161,162);
+			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n",162,162,161,162);
+			p("[6] - Las leyes volum%ctricas de Gay-Lussac y las hip%ctesis de Avogadro. El concepto de mol. Masas at%cmicas y moleculares.\n\n",130,162,162);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&opcion);
 			p("\n");
-		} while(opcion < 1 || opcion > 5);
+		} while(opcion < 1 || opcion > 6);
 		switch(opcion) {
 			case 1:
 				magfime();
@@ -32,6 +33,9 @@ void fiyqui() {
 				break;
 			case 5:
 				reproteato();
+				break;
+			case 6:
+				levogay();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);

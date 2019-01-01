@@ -36,3 +36,4 @@ void trapoel();
 void reproteato();
 void clasu();
 void lepoqui();
+void levogay();

@@ -27,6 +27,7 @@
 #include "reproteato.c"
 #include "clasu.c"
 #include "lepoqui.c"
+#include "levogay.c"
 
 // FUNCION PRINCIPAL
 int main() {
