@@ -966,15 +966,17 @@ void magesve() {
 	p("_____________\n");
 	p("       3a    \n");
 	p("   --------->\n");
-	p("a  \         \n");
-	p("    v        \n\n");
+	p("a  -         \n");
+	p("a   -        \n");
+	p("     v       \n\n");
 	
 	fprintf(archivo,"       B     \n");
 	fprintf(archivo,"_____________\n");
 	fprintf(archivo,"       3a    \n");
 	fprintf(archivo,"   --------->\n");
-	fprintf(archivo,"a  \         \n");
-	fprintf(archivo,"    v        \n\n");
+	fprintf(archivo,"a  -         \n");
+	fprintf(archivo,"a   -        \n");
+	fprintf(archivo,"     v       \n\n");
 	
 	p("----------------\n\n");
 	

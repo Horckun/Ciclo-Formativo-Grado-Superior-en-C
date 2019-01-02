@@ -28,6 +28,7 @@
 #include "clasu.c"
 #include "lepoqui.c"
 #include "levogay.c"
+#include "comcen.c"
 
 // FUNCION PRINCIPAL
 int main() {
