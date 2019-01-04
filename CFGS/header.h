@@ -38,3 +38,4 @@ void clasu();
 void lepoqui();
 void levogay();
 void comcen();
+void maricoga();

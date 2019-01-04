@@ -8,12 +8,13 @@ void reproteato() {
 			p("[1] - La clasificaci%cn de las sustancias: elementos, compuestos y mezclas.\n",162);
 			p("[2] - Leyes ponderales de la qu%cmica. Teor%ca at%cmica de Dalton y justificaci%cn de las leyes ponderales.\n",161,161,162,162);
 			p("[3] - Las leyes volum%ctricas de Gay-Lussac y las hip%ctesis de Avogadro. El concepto de mol. Masas at%cmicas y moleculares.\n",130,162,162);
-			p("[4] - Composici%cn centesimal. F%crmulas emp%cricas y moleculares.\n\n",162,162,161);
+			p("[4] - Composici%cn centesimal. F%crmulas emp%cricas y moleculares.\n",162,162,161);
+			p("[5] - Magnitudes que rigen el comportamiento de los gases. Ecuaci%cn de los gases ideales.\n\n",162);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 4);
+		} while(tema < 1 || tema > 5);
 		switch(tema) {
 			case 1:
 				clasu();
@@ -26,6 +27,10 @@ void reproteato() {
 				break;
 			case 4: {
 				comcen();
+				break;
+			}
+			case 5: {
+				maricoga();
 				break;
 			}
 			default:

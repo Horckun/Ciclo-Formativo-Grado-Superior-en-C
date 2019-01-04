@@ -29,6 +29,7 @@
 #include "lepoqui.c"
 #include "levogay.c"
 #include "comcen.c"
+#include "maricoga.c"
 
 // FUNCION PRINCIPAL
 int main() {
