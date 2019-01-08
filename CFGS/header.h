@@ -39,3 +39,4 @@ void lepoqui();
 void levogay();
 void comcen();
 void maricoga();
+void alfoex();

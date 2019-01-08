@@ -30,6 +30,7 @@
 #include "levogay.c"
 #include "comcen.c"
 #include "maricoga.c"
+#include "alfoex.c"
 
 // FUNCION PRINCIPAL
 int main() {
