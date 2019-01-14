@@ -40,3 +40,5 @@ void levogay();
 void comcen();
 void maricoga();
 void alfoex();
+void elase();
+void pamoa();

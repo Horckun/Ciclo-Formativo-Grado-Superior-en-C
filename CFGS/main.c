@@ -31,6 +31,8 @@
 #include "comcen.c"
 #include "maricoga.c"
 #include "alfoex.c"
+#include "elase.c"
+#include "pamoa.c"
 
 // FUNCION PRINCIPAL
 int main() {

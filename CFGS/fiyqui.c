@@ -11,7 +11,8 @@ void fiyqui() {
 			p("[2] - Cinem%ctica y din%cmica.\n",160,160);
 			p("[3] - Trabajo. Potencia y Energ%ca.\n",161);
 			p("[4] - Electrost%ctica y corriente el%cctrica.\n",160,130);
-			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n\n",162,162,161,162);
+			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n",162,162,161,162);
+			p("[6] - El %ctomo y sus enlaces.\n\n",160);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&opcion);
@@ -32,6 +33,9 @@ void fiyqui() {
 				break;
 			case 5:
 				reproteato();
+				break;
+			case 6:
+				elase();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);
