@@ -42,3 +42,4 @@ void maricoga();
 void alfoex();
 void elase();
 void pamoa();
+void emoba();

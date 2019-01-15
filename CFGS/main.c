@@ -33,6 +33,7 @@
 #include "alfoex.c"
 #include "elase.c"
 #include "pamoa.c"
+#include "emoba.c"
 
 // FUNCION PRINCIPAL
 int main() {
