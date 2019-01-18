@@ -34,6 +34,7 @@
 #include "elase.c"
 #include "pamoa.c"
 #include "emoba.c"
+#include "enico.c"
 
 // FUNCION PRINCIPAL
 int main() {

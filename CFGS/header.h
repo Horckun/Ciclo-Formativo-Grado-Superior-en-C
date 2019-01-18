@@ -43,3 +43,4 @@ void alfoex();
 void elase();
 void pamoa();
 void emoba();
+void enico();

@@ -5,8 +5,8 @@ CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
 RES      = CFGS_private.res
-OBJ      = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o elase.o emoba.o $(RES)
-LINKOBJ  = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o elase.o emoba.o $(RES)
+OBJ      = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o elase.o emoba.o enico.o $(RES)
+LINKOBJ  = magfime.o fiyqui.o main.o simede.o simedet.o sinu.o sinun.o unco.o elase.o emoba.o enico.o $(RES)
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -54,6 +54,9 @@ elase.o: elase.c
 
 emoba.o: emoba.c
 	$(CC) -c emoba.c -o emoba.o $(CFLAGS)
+
+enico.o: enico.c
+	$(CC) -c enico.c -o enico.o $(CFLAGS)
 
 CFGS_private.res: CFGS_private.rc 
 	$(WINDRES) -i CFGS_private.rc --input-format=rc -o CFGS_private.res -O coff 
