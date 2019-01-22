@@ -35,6 +35,7 @@
 #include "pamoa.c"
 #include "emoba.c"
 #include "enico.c"
+#include "fuerin.c"
 
 // FUNCION PRINCIPAL
 int main() {

@@ -44,3 +44,4 @@ void elase();
 void pamoa();
 void emoba();
 void enico();
+void fuerin();
