@@ -10,8 +10,8 @@ A ICON "CFGS.ico"
 // TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
 //
 1 VERSIONINFO
-FILEVERSION 2,2,0,8
-PRODUCTVERSION 2,2,0,8
+FILEVERSION 2,2,0,10
+PRODUCTVERSION 2,2,0,10
 FILETYPE VFT_APP
 {
   BLOCK "StringFileInfo"
@@ -19,14 +19,14 @@ FILETYPE VFT_APP
     BLOCK "0C0A04E4"
     {
       VALUE "CompanyName", "Horckun"
-      VALUE "FileVersion", "2.2.0.8"
+      VALUE "FileVersion", "2.2.0.10"
       VALUE "FileDescription", "Developed using the Dev-C++ IDE"
       VALUE "InternalName", "CFGS"
       VALUE "LegalCopyright", ""
       VALUE "LegalTrademarks", ""
       VALUE "OriginalFilename", ""
       VALUE "ProductName", "Ciclo Formativo Grado Superior"
-      VALUE "ProductVersion", "2.2.0.8"
+      VALUE "ProductVersion", "2.2.0.10"
     }
   }
   BLOCK "VarFileInfo"

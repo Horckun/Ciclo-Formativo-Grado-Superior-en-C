@@ -36,6 +36,7 @@
 #include "emoba.c"
 #include "enico.c"
 #include "fuerin.c"
+#include "procom.c"
 
 // FUNCION PRINCIPAL
 int main() {

@@ -45,3 +45,4 @@ void pamoa();
 void emoba();
 void enico();
 void fuerin();
+void procom();

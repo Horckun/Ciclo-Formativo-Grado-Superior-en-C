@@ -8,12 +8,13 @@ void elase() {
 			p("[1] - Papel de los modelos at%cmicos en el avance de la qu%cmica: modelos de Thomson y de Rutherford. Conceptos de masa at%cmica y n%cmero at%cmico. Part%cculas subat%cmicas. Is%ctopos y su representaci%cn. Modelo at%cmico de Bohr.\n",162,161,162,163,162,161,162,162,162,162);
 			p("[2] - El modelo basado en la disposici%cn de electrones en niveles sucesivos. Concepto de orbital. Los n%cmeros cu%cnticos. Notaci%cn de los orbitales y configuraci%cn electr%cnica. Tabla peri%cdica de los elementos y su interpretaci%cn electr%cnica.\n",162,163,160,162,162,162,162,162,162);
 			p("[3] - El enlace i%cnico y el covalente a partir de la regla del octeto, utilizando los diagramas de Lewis. Enlaces m%cltiples en el covalente para justificar mol%cculas como la de ox%cgeno o la de nitr%cgeno. Introducci%cn al enlace met%clico.\n",162,163,130,161,162,162,160);
-			p("[4] - Fuerzas intermoleculares. Enlaces de hidr%cgeno y fuerzas de Van der Waals.\n\n",162);
+			p("[4] - Fuerzas intermoleculares. Enlaces de hidr%cgeno y fuerzas de Van der Waals.\n",162);
+			p("[5] - Propiedades de los compuestos como consecuencia del enlace. S%clidos covalentes, s%clidos at%cmicos, s%clidos i%cnicos y s%clidos met%clicos.\n\n",162,162,162,162,162,162,160);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 4);
+		} while(tema < 1 || tema > 5);
 		switch(tema) {
 			case 1:
 				pamoa();
@@ -26,6 +27,9 @@ void elase() {
 				break;
 			case 4:
 				fuerin();
+				break;
+			case 5:
+				procom();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);
