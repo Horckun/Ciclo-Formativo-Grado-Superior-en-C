@@ -37,6 +37,7 @@
 #include "enico.c"
 #include "fuerin.c"
 #include "procom.c"
+#include "inre.c"
 
 // FUNCION PRINCIPAL
 int main() {
