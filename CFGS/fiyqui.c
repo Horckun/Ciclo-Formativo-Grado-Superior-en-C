@@ -12,12 +12,13 @@ void fiyqui() {
 			p("[3] - Trabajo. Potencia y Energ%ca.\n",161);
 			p("[4] - Electrost%ctica y corriente el%cctrica.\n",160,130);
 			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n",162,162,161,162);
-			p("[6] - El %ctomo y sus enlaces.\n\n",160);
+			p("[6] - El %ctomo y sus enlaces.\n",160);
+			p("[7] - C%clculos estequiom%ctricos con reacciones qu%cmicas.\n\n",160,130,161);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&opcion);
 			p("\n");
-		} while(opcion < 1 || opcion > 6);
+		} while(opcion < 1 || opcion > 7);
 		switch(opcion) {
 			case 1:
 				magfime();
@@ -36,6 +37,9 @@ void fiyqui() {
 				break;
 			case 6:
 				elase();
+				break;
+			case 7:
+				cales();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);

@@ -38,6 +38,8 @@
 #include "fuerin.c"
 #include "procom.c"
 #include "inre.c"
+#include "cales.c"
+#include "model.c"
 
 // FUNCION PRINCIPAL
 int main() {

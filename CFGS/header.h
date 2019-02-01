@@ -47,3 +47,5 @@ void enico();
 void fuerin();
 void procom();
 void inre();
+void cales();
+void model();
