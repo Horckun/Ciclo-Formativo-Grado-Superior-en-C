@@ -40,6 +40,7 @@
 #include "inre.c"
 #include "cales.c"
 #include "model.c"
+#include "ajusre.c"
 
 // FUNCION PRINCIPAL
 int main() {

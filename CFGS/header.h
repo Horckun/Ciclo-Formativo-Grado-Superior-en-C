@@ -49,3 +49,4 @@ void procom();
 void inre();
 void cales();
 void model();
+void ajusre();
