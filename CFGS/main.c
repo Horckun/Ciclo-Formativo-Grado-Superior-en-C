@@ -41,6 +41,7 @@
 #include "cales.c"
 #include "model.c"
 #include "ajusre.c"
+#include "inforeare.c"
 
 // FUNCION PRINCIPAL
 int main() {
