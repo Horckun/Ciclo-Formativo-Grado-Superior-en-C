@@ -42,6 +42,7 @@
 #include "model.c"
 #include "ajusre.c"
 #include "inforeare.c"
+#include "calere.c"
 
 // FUNCION PRINCIPAL
 int main() {

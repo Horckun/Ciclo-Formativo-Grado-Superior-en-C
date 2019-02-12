@@ -29,7 +29,7 @@ IncludeVersionInfo=1
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=19
+UnitCount=20
 
 [VersionInfo]
 Major=2
@@ -232,6 +232,16 @@ BuildCmd=
 
 [Unit19]
 FileName=inforeare.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit20]
+FileName=calere.c
 CompileCpp=0
 Folder=
 Compile=1
