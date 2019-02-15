@@ -52,3 +52,5 @@ void model();
 void ajusre();
 void inforeare();
 void calere();
+void introquica();
+void pococa();

@@ -43,6 +43,8 @@
 #include "ajusre.c"
 #include "inforeare.c"
 #include "calere.c"
+#include "introquica.c"
+#include "pococa.c"
 
 // FUNCION PRINCIPAL
 int main() {

@@ -13,12 +13,13 @@ void fiyqui() {
 			p("[4] - Electrost%ctica y corriente el%cctrica.\n",160,130);
 			p("[5] - Revisi%cn y profundizaci%cn de la teor%ca at%cmicomolecular.\n",162,162,161,162);
 			p("[6] - El %ctomo y sus enlaces.\n",160);
-			p("[7] - C%clculos estequiom%ctricos con reacciones qu%cmicas.\n\n",160,130,161);
+			p("[7] - C%clculos estequiom%ctricos con reacciones qu%cmicas.\n",160,130,161);
+			p("[8] - Introducci%cn a la qu%cmica del carbono.\n\n",162,161);
 			p("Tema: ");
 			fflush(stdin);
 			s("%i",&opcion);
 			p("\n");
-		} while(opcion < 1 || opcion > 7);
+		} while(opcion < 1 || opcion > 8);
 		switch(opcion) {
 			case 1:
 				magfime();
@@ -40,6 +41,9 @@ void fiyqui() {
 				break;
 			case 7:
 				cales();
+				break;
+			case 8:
+				introquica();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);
