@@ -45,6 +45,7 @@
 #include "calere.c"
 #include "introquica.c"
 #include "pococa.c"
+#include "clafuo.c"
 
 // FUNCION PRINCIPAL
 int main() {

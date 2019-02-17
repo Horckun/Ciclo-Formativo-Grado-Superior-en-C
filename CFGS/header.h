@@ -54,3 +54,4 @@ void inforeare();
 void calere();
 void introquica();
 void pococa();
+void clafuo();
