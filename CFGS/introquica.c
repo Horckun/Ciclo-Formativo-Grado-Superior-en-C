@@ -6,18 +6,22 @@ void introquica() {
 			p("Introducci%cn a la qu%cmica del carbono:\n",162,161);
 			p("======================================\n\n");
 			p("[1] - Posibilidades de combinaci%cn que tiene el carbono.\n",162);
-			p("[2] - Clasificaci%cn de las funciones org%cnicas. Alcanos, alquenos y alquinos, hidrocarburos arom%cticos sencillos, alcoholes, %cteres, aldeh%cdos, cetonas, %ccidos, %csteres, aminas y compuestos halogenados.\n\n",162,160,160,130,161,160,130);
+			p("[2] - Clasificaci%cn de las funciones org%cnicas. Alcanos, alquenos y alquinos, hidrocarburos arom%cticos sencillos, alcoholes, %cteres, aldeh%cdos, cetonas, %ccidos, %csteres, aminas y compuestos halogenados.\n",162,160,160,130,161,160,130);
+			p("[3] - Nomenclatura y formulaci%cn IUPAC para estos compuestos (limitados a compuestos con un grupo funcional).\n\n",162);
 			p("Tema: ");
 			fflush(stdin);
 			s("%d",&tema);
 			p("\n");
-		} while(tema < 1 || tema > 2);
+		} while(tema < 1 || tema > 3);
 		switch(tema) {
 			case 1:
 				pococa();
 				break;
 			case 2:
 				clafuo();
+				break;
+			case 3:
+				nofo();
 				break;
 			default:
 				p("No se ha seleccionado una opci%cn v%clida.\n\n",162,160);

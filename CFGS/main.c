@@ -46,6 +46,7 @@
 #include "introquica.c"
 #include "pococa.c"
 #include "clafuo.c"
+#include "nofo.c"
 
 // FUNCION PRINCIPAL
 int main() {

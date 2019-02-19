@@ -29,7 +29,7 @@ IncludeVersionInfo=1
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=23
+UnitCount=24
 
 [VersionInfo]
 Major=2
@@ -272,6 +272,16 @@ BuildCmd=
 
 [Unit23]
 FileName=clafuo.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit24]
+FileName=nofo.c
 CompileCpp=0
 Folder=
 Compile=1
